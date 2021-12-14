@@ -1,0 +1,104 @@
+body {
+  max-width: 1000px;
+  margin: auto;
+  background-image: url("baggrundsbillede.jpg");
+  background-color: #cccccc;
+  height: 1000px;
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+  position: relative;
+
+}
+
+.logo {
+  width: 20%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.grid-container{
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.button {
+  display: flex;
+  flex-flow: row;
+  padding: 10px;
+  border: none;
+  max-width: 100%;
+  height: auto;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  }
+
+.button1 {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.grid-container1 {
+  display: grid;
+  grid-column-gap: 10px;
+  padding-left: 10px;
+  background-color: grey;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.ommigbillede {
+  display: flex;
+  align-content: center;
+  width: 500px;
+  height: 500px;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-column-gap: 10px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  background-color: grey;
+  border-radius: 10px;
+}
+
+
+.tekst-kompetencer {
+  display: grid;
+  grid-column-gap: 10px;
+  grid-template-columns: 1fr;
+  padding-left: 10px;
+  background-color: grey;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.grid-container3 {
+  display: grid;
+  grid-column-gap: 10px;
+  grid-template-columns: 1fr;
+  padding-left: 10px;
+  background-color: grey;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.instagram {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 100px;
+  max-height: 100px;
+  border: none;
+
+  }
